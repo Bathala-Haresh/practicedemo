@@ -18,6 +18,7 @@ public class App
          log.warn(msg + "will be printed on warn");
          log.error(msg + "will be printed error ");
          log.fatal(msg + "will be printed on fatal");
+	 log.error(msg + "will be printed error extra 2 times this time ");
          System.out.println(msg);
           
     }
